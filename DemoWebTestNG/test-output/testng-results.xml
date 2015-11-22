@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14082" started-at="2015-11-22T07:07:59Z" finished-at="2015-11-22T07:08:14Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14082" started-at="2015-11-22T07:07:59Z" finished-at="2015-11-22T07:08:14Z">
+      <class name="com.newt.demo.DemoWebTestNG.DemoTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.newt.demo.DemoWebTestNG.DemoTest@30a502]" name="setUp" is-config="true" duration-ms="6574" started-at="2015-11-22T01:07:59Z" finished-at="2015-11-22T01:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testcaseforLogin(java.lang.String, java.lang.String)[pri:0, instance:com.newt.demo.DemoWebTestNG.DemoTest@30a502]" name="testcaseforLogin" duration-ms="570" started-at="2015-11-22T01:08:06Z" data-provider="getLoginData" finished-at="2015-11-22T01:08:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[newt123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseforLogin -->
+        <test-method status="PASS" signature="verifyHomePage()[pri:0, instance:com.newt.demo.DemoWebTestNG.DemoTest@30a502]" name="verifyHomePage" duration-ms="5696" started-at="2015-11-22T01:08:07Z" finished-at="2015-11-22T01:08:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.newt.demo.DemoWebTestNG.DemoTest@30a502]" name="endTest" is-config="true" duration-ms="1221" started-at="2015-11-22T01:08:12Z" finished-at="2015-11-22T01:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.newt.demo.DemoWebTestNG.DemoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
